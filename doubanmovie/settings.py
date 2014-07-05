@@ -20,4 +20,4 @@ ITEM_PIPELINES = {
 }
 
 IMAGES_STORE = 'posters-downloaded/'
-LOG_LEVEL    = 'INFO'
+LOG_LEVEL    = 'ERROR'
