@@ -5,10 +5,7 @@
 
 from scrapy.item import Item, Field
 
-class DoubanmovieItem(Item):
-    # define the fields for your item here like:
-    # name = Field()
-    pass
+
 class MovieItem(Item):
 	rank        = Field()
 	score       = Field()

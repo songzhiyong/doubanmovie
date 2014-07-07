@@ -37,7 +37,7 @@ class MyImagesPipeline(ImagesPipeline):
 
     def update_progress(self, progress):
         bar_length = 50
-        end_val = 248
+        end_val = 250
         percent = float(progress) / end_val
         hashes = '#' * int(round(percent * bar_length))
         spaces = ' ' * (bar_length - len(hashes))

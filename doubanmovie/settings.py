@@ -19,5 +19,6 @@ ITEM_PIPELINES = {
     'doubanmovie.pipelines.JsonWithEncodingPipeline': 300
 }
 
+USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.54 Safari/536.5'
 IMAGES_STORE = 'posters-downloaded/'
 LOG_LEVEL    = 'ERROR'
