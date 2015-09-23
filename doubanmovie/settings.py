@@ -20,9 +20,9 @@ NEWSPIDER_MODULE = 'doubanmovie.spiders'
 #     'doubanmovie.pipelines.JsonWithEncodingPipeline': 300
 # }
 
-ITEM_PIPELINES = [
-  'scrapyelasticsearch.scrapyelasticsearch.ElasticSearchPipeline',
-]
+ITEM_PIPELINES = {
+  'scrapyelasticsearch.scrapyelasticsearch.ElasticSearchPipeline': 300,
+}
 
 ELASTICSEARCH_SERVER = 'localhost' # If not 'localhost' prepend 'http://'
 ELASTICSEARCH_PORT = 9200 # If port 80 leave blank
